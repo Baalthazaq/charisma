@@ -1,39 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full bg-gray-900 text-gray-200">
+<html lang="en" class="h-full">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Console</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>body{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}</style>
 </head>
-<body class="h-full p-6 space-y-8">
-  <h2 class="text-2xl mb-4 text-teal-400">Admin Console</h2>
+<body class="bg-gray-900 text-gray-200 h-full p-6 space-y-6">
+  <h2 class="text-3xl text-teal-400">Admin Console</h2>
 
-  <section class="bg-gray-800/40 p-4 rounded-lg">
-    <h3 class="text-xl text-violet-300 mb-2">User Interactions</h3>
-    <p class="text-sm mb-4">Monitor recent actions by players.</p>
-    <ul class="list-disc pl-6 space-y-1">
+  <section class="bg-gray-800/50 p-4 rounded-lg">
+    <h3 class="text-violet-400 text-lg mb-2">User Interactions</h3>
+    <p class="text-sm mb-4">Monitor recent player activity.</p>
+    <ul class="list-disc pl-5 space-y-1 text-sm text-gray-300">
       <li>Placeholder interaction 1</li>
       <li>Placeholder interaction 2</li>
     </ul>
   </section>
 
-  <section class="bg-gray-800/40 p-4 rounded-lg">
-    <h3 class="text-xl text-violet-300 mb-2">NPC Control</h3>
-    <p class="text-sm mb-4">Act as key NPCs to message or influence players.</p>
-    <button class="bg-teal-600/60 hover:bg-teal-600 text-white px-3 py-1 rounded">Send NPC Message</button>
+  <section class="bg-gray-800/50 p-4 rounded-lg">
+    <h3 class="text-violet-400 text-lg mb-2">NPC Control</h3>
+    <p class="text-sm mb-4">Send messages or take actions as major NPCs.</p>
+    <button class="bg-teal-600 hover:bg-teal-500 text-white px-4 py-1 rounded">Send NPC Message</button>
   </section>
 
-  <section class="bg-gray-800/40 p-4 rounded-lg">
-    <h3 class="text-xl text-violet-300 mb-2">Content Injection</h3>
-    <p class="text-sm mb-4">Push new content to in-world apps.</p>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-      <button class="bg-violet-600/60 hover:bg-violet-600 text-white px-3 py-1 rounded">Add Store Item</button>
-      <button class="bg-violet-600/60 hover:bg-violet-600 text-white px-3 py-1 rounded">Add News Item</button>
-      <button class="bg-violet-600/60 hover:bg-violet-600 text-white px-3 py-1 rounded">Insert Ads</button>
+  <section class="bg-gray-800/50 p-4 rounded-lg">
+    <h3 class="text-violet-400 text-lg mb-2">Content Injection</h3>
+    <p class="text-sm mb-4">Push new items, headlines, or ads to other apps.</p>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+      <button class="bg-violet-600 hover:bg-violet-500 text-white px-3 py-1 rounded">Add Store Item</button>
+      <button class="bg-violet-600 hover:bg-violet-500 text-white px-3 py-1 rounded">Add News Item</button>
+      <button class="bg-violet-600 hover:bg-violet-500 text-white px-3 py-1 rounded">Insert Ads</button>
     </div>
   </section>
 
-  <a href="../index.html" class="text-teal-300 hover:underline">&larr; Back</a>
+  <a href="../index.html" class="text-teal-400 hover:underline">&larr; Back</a>
 </body>
 </html>
